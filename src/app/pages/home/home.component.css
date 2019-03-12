@@ -59,6 +59,10 @@ header h1 {
   height: 100%;
 }
 
+.gallery-link:hover {
+  cursor: pointer;
+}
+
 @media only screen and (min-width: 960px) {
   .galleries.row {
     min-height: 750px;
