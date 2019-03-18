@@ -67,8 +67,9 @@ export class GalleryComponent implements OnInit {
         index: i !== null ? i : 0,
         // showAnimationDuration: 400,
         showHideOpacity: true,
-        hideAnimationDuration:0, 
-        showAnimationDuration:0,
+        getThumbBoundsFn: false,
+        // hideAnimationDuration:0, 
+        // showAnimationDuration:0,
         // history: true,
         // zoomEl: false,
         // maxSpreadZoom: 1,
@@ -95,8 +96,8 @@ export class GalleryComponent implements OnInit {
         index: 0,
         // showAnimationDuration: 400,
         showHideOpacity: true,
-        hideAnimationDuration:0, 
-        showAnimationDuration:0,
+        // hideAnimationDuration:0, 
+        // showAnimationDuration:0,
         // history: true,
         // zoomEl: false,
         // maxSpreadZoom: 1,
@@ -104,6 +105,7 @@ export class GalleryComponent implements OnInit {
         //     return item.initialZoomLevel;
         // },
         // pinchToClose: false,
+        getThumbBoundsFn: false,
         closeOnScroll: false,
     };
       console.log('--  SLIDE --');

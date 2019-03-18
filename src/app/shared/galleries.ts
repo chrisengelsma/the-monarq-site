@@ -202,7 +202,7 @@ export const GALLERIES: Gallery[] = [
 				src : "/assets/images/texture_on_polaroid/img116.jpg",
 				w : 900, 
 				h : 1067, 
-				title : "Aura",
+				title : "Aura a reduction of forms to light, exploration in capturing light",
 				album : 'aura'
 			},
 			{
